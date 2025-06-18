@@ -90,6 +90,10 @@ header{
     padding: 0.5rem;
     color: black;
 }
+.container-badge{
+    position: absolute;
+    bottom: 4%;
+}
 .discount{
     bottom: 4%;
     background-color: #ff0000;
