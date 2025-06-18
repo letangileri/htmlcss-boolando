@@ -93,19 +93,36 @@ header{
 .container-badge{
     position: absolute;
     bottom: 4%;
+    gap: 0.5rem;
 }
-.discount{
+/* .discount{
     bottom: 4%;
     background-color: #ff0000;
     padding: 0.25rem;
-}
-.green{
+} */
+
+.card .green{
+    display:none;
     bottom: 4%;
     left: 12%;
     background-color: #008000;
     padding: 0.25rem;
-    margin-left: 0.50rem;
+
 }
+.sustainability .green{
+    display: inline-block;
+}
+
+.card .red{
+    display:none;
+    bottom: 4%;
+    background-color: #ff0000;
+    padding: 0.25rem;
+}
+.discounts .red{
+    display: inline-block;
+}
+
 .card-img img{
     height: 100%;
     width: 100%; 
